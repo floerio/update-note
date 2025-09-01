@@ -1,0 +1,12 @@
+{
+  "id": "update-note",
+  "name": "Update Note",
+  "version": "1.0.0",
+  "minAppVersion": "1.0.0",
+  "author": "Oliver Flöricke",
+  "authorUrl": "https://yourwebsite.com",
+  "description": "Updates on or all notes",
+  "repo": "https://github.com/yourusername/your-plugin-repo",
+  "isDesktopOnly": false,
+  "main": "dist/main.js"
+}

@@ -401,7 +401,5 @@ var CreateNoteSettingTab = class extends import_obsidian2.PluginSettingTab {
         await this.plugin.saveSettings();
       });
     });
-    const enabled = this.plugin.settings.useTemplate === true;
-    inputArray.forEach((input) => input.disabled = !enabled);
   }
 };

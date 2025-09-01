@@ -250,11 +250,6 @@ class CreateNoteSettingTab extends PluginSettingTab {
                         await this.plugin.saveSettings();
                     });
             });
-
-        // set initial state
-        const enabled = this.plugin.settings.useTemplate === true;
-        inputArray.forEach(input => input.disabled = !enabled);
-
     }
 }
 
