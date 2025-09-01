@@ -1,0 +1,27 @@
+{
+  "name": "update-note",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "esbuild src/main.ts --bundle --platform=node --target=es2020 --outfile=dist/main.js --external:obsidian --log-limit=0 ",
+    "version": "node version-bump.mjs && git add manifest.json versions.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/floerio/update-note.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/floerio/update-note/issues"
+  },
+  "homepage": "https://github.com/floerio/update-note#readme",
+  "description": "",
+  "dependencies": {
+    "esbuild": "^0.25.9",
+    "obsidian": "^1.8.7",
+    "path": "^0.12.7"
+  }
+}
