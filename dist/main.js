@@ -348,7 +348,6 @@ var CreateNoteSettingTab = class extends import_obsidian2.PluginSettingTab {
   display() {
     const { containerEl } = this;
     containerEl.empty();
-    let inputArray = [];
     new import_obsidian2.Setting(containerEl).setName("Renaming: Maximal Count").setDesc("Limit the number of files to be renamed").addText((text) => {
       text.inputEl.placeholder = "0 for entire vault";
       text.inputEl.type = "number";

@@ -161,9 +161,7 @@ class CreateNoteSettingTab extends PluginSettingTab {
         const { containerEl } = this;
 
         containerEl.empty();
-
-        let inputArray: HTMLInputElement[] = [];
-
+        
         //
         // settings for rename tool
         //
