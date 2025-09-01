@@ -65,7 +65,7 @@ export default class updateNotePlugin extends Plugin {
             }
         });
 
-        // Register for file menu (context menu)
+        // Register for file menu (context menu) test
         this.registerEvent(
             this.app.workspace.on("file-menu", (menu: Menu, file: TFile) => {
                 // Only show for markdown files
